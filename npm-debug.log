@@ -12,10 +12,10 @@
 8 verbose lifecycle twitter-streaming-node@0.0.1~start: unsafe-perm in lifecycle true
 9 verbose lifecycle twitter-streaming-node@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/Hijus/Desktop/Universidad/INTERCAMBIO/Proyecto/twitter-streaming-nodejs-master/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
 10 verbose lifecycle twitter-streaming-node@0.0.1~start: CWD: /Users/Hijus/Desktop/Universidad/INTERCAMBIO/Proyecto/twitter-streaming-nodejs-master
-11 silly lifecycle twitter-streaming-node@0.0.1~start: Args: [ '-c', 'node server' ]
+11 silly lifecycle twitter-streaming-node@0.0.1~start: Args: [ '-c', 'node prueba' ]
 12 silly lifecycle twitter-streaming-node@0.0.1~start: Returned: code: 1  signal: null
 13 info lifecycle twitter-streaming-node@0.0.1~start: Failed to exec start script
-14 verbose stack Error: twitter-streaming-node@0.0.1 start: `node server`
+14 verbose stack Error: twitter-streaming-node@0.0.1 start: `node prueba`
 14 verbose stack Exit status 1
 14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:232:16)
 14 verbose stack     at emitTwo (events.js:100:13)
@@ -32,14 +32,14 @@
 19 error node v5.6.0
 20 error npm  v3.6.0
 21 error code ELIFECYCLE
-22 error twitter-streaming-node@0.0.1 start: `node server`
+22 error twitter-streaming-node@0.0.1 start: `node prueba`
 22 error Exit status 1
-23 error Failed at the twitter-streaming-node@0.0.1 start script 'node server'.
+23 error Failed at the twitter-streaming-node@0.0.1 start script 'node prueba'.
 23 error Make sure you have the latest version of node.js and npm installed.
 23 error If you do, this is most likely a problem with the twitter-streaming-node package,
 23 error not with npm itself.
 23 error Tell the author that this fails on your system:
-23 error     node server
+23 error     node prueba
 23 error You can get information on how to open an issue for this project with:
 23 error     npm bugs twitter-streaming-node
 23 error Or if that isn't available, you can get their info via:
