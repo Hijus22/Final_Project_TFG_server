@@ -39,7 +39,6 @@ io.sockets.on('connection', function (socket) {
                     if (data.text){
                         if (data.text !== null){
                             //If so then build up some nice json and send out to web sockets
-                            console.log("IEEEEPA!! " + data.text + " POR " + data.id_str);
                             var outputMessage = {"message": data.text, 'name': data.id_str};
                             //var outputMessage = [data.text, data.name];
 
@@ -50,7 +49,6 @@ io.sockets.on('connection', function (socket) {
                             socket.emit('twitter-streaming', outputMessage);
                         }
                     } else {
-                        console.log("NADA DE NAAA!!");
                     }
                     stream.on('limit', function(limitMessage) {
                         return console.log(limitMessage);
